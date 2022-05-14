@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
@@ -15,18 +16,19 @@
     <!-- Quote -->
     <div class="quote-text">
         <i class="fa fa-quote-left fa-3x fa-pull-left" area-hidden="true" ></i>
-        <p>What you are is what you have been. What you'll be is what you do now.</p>
+        <!-- <p>What you are is what you have been. What you'll be is what you do now.</p> -->
+        <span id="quote"></span>
     </div>
 
     <!-- Author -->
     <div class="quote-author">
-        <span id="author">Buddha</span>
+        <span id="author"></span>
     </div>
 
     <!-- Buttons -->
-    <div class="buttons-containers">
+    <div class="button-container">
         <button class="twitter-button" id="twitter" title="Tweet This!">
-            <i class="fab fa-twitter"> Tweet This!</i>
+            <i class="fab fa-twitter"></i>
         </button>
         <button id="new-quote">Get New Quote</button>
     </div>
@@ -34,6 +36,7 @@
 <!--  -->
 
 <!-- Script  -->
+<script src="quotes.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
